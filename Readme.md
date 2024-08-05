@@ -67,3 +67,37 @@ Run the tests with `pytest`:
 
 ```bash
 pytest tests
+```
+
+
+## Docker Deployment
+1. Build the Docker image:
+
+   ```bash
+     docker build -t 3d_shapes_calculator .
+   ```
+
+2. Run the Docker container:
+   
+   ```bash
+   docker run -p 8000:8000 3d_shapes_calculator
+   ```
+
+## Contributing
+1. Fork the repository.
+2. Create a new branch (git checkout -b feature/your-feature).
+3. Make your changes.
+4. Commit your changes (git commit -am 'Add some feature').
+5. Push to the branch (git push origin feature/your-feature).
+6. Create a new Pull Request.
+
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+### Acknowledgements
+- FastAPI
+- Pytest
+
+### Conclusion
+This `README.md` provides a comprehensive overview of your project, including installation instructions, API endpoints, testing, deployment, and contribution guidelines. Feel free to customize it further based on your specific project details and preferences.
